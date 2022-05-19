@@ -13,7 +13,6 @@ static void init() {
 	glClearColor(0, 0, 0, 0);
 
 }
-
 static void drawLeftTriangle() {
 
 	//draw Green triangle on LHS of screen
