@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\22.03.21.">
+      <UniqueIdentifier>{c47c3c21-feca-4dac-b194-b7a0b834b44e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\HW&amp;EXAM">
+      <UniqueIdentifier>{7ee24715-2096-4543-8582-5297838a98e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.03.14.">
+      <UniqueIdentifier>{b4e078b0-1676-4013-b423-1f477153efbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.03.28.">
+      <UniqueIdentifier>{7a27348e-e6cd-41ae-9265-a5c26067a5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.04.04.">
+      <UniqueIdentifier>{9895df0e-62b7-43dd-8af6-2cd05e08e75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.05.18. 질감">
+      <UniqueIdentifier>{a907bc06-3241-4318-8e42-a8f7c47ec3b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.05.11. 조명 이동">
+      <UniqueIdentifier>{7acc6cac-34af-476c-ae49-394d34b69bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.05.09. 축회전, 조명">
+      <UniqueIdentifier>{f93fbc88-1ef2-483e-9bf3-68af76c3031f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.05.04. 은면, 알파블렌딩">
+      <UniqueIdentifier>{49e5b666-25ec-4f32-9ab9-6d91440c5569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.05.02. 팝업">
+      <UniqueIdentifier>{7a606972-6c7d-474e-8e7c-967bace281d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.04.13. 카메라이동, push-pop">
+      <UniqueIdentifier>{bf63e217-3e20-4432-90c4-ed7c26f99817}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\22.04.25. 잘린 구, 행성">
+      <UniqueIdentifier>{dd9821a5-a468-4ed3-a274-b3d1e91c903d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PushPop.cpp">
+      <Filter>소스 파일\22.04.13. 카메라이동, push-pop</Filter>
+    </ClCompile>
+    <ClCompile Include="Ortho.cpp">
+      <Filter>소스 파일\22.04.13. 카메라이동, push-pop</Filter>
+    </ClCompile>
+    <ClCompile Include="Clipping_Planecpp.cpp">
+      <Filter>소스 파일\22.04.25. 잘린 구, 행성</Filter>
+    </ClCompile>
+    <ClCompile Include="Planet.cpp">
+      <Filter>소스 파일\22.04.25. 잘린 구, 행성</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupMenu.cpp">
+      <Filter>소스 파일\22.05.02. 팝업</Filter>
+    </ClCompile>
+    <ClCompile Include="PopupSubMenu.cpp">
+      <Filter>소스 파일\22.05.02. 팝업</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB_ColorCube.cpp">
+      <Filter>소스 파일\22.05.02. 팝업</Filter>
+    </ClCompile>
+    <ClCompile Include="RGB_ColorCube2.cpp">
+      <Filter>소스 파일\22.05.02. 팝업</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
+      <Filter>소스 파일\22.05.02. 팝업</Filter>
+    </ClCompile>
+    <ClCompile Include="DepthTest.cpp">
+      <Filter>소스 파일\22.05.04. 은면, 알파블렌딩</Filter>
+    </ClCompile>
+    <ClCompile Include="AlphaBlending.cpp">
+      <Filter>소스 파일\22.05.04. 은면, 알파블렌딩</Filter>
+    </ClCompile>
+    <ClCompile Include="Rotation.cpp">
+      <Filter>소스 파일\22.05.09. 축회전, 조명</Filter>
+    </ClCompile>
+    <ClCompile Include="Lighting.cpp">
+      <Filter>소스 파일\22.05.09. 축회전, 조명</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLighting1.cpp">
+      <Filter>소스 파일\22.05.11. 조명 이동</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveLighting2.cpp">
+      <Filter>소스 파일\22.05.11. 조명 이동</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialProperty.cpp">
+      <Filter>소스 파일\22.05.18. 질감</Filter>
+    </ClCompile>
+    <ClCompile Include="MaterialColor.cpp">
+      <Filter>소스 파일\22.05.18. 질감</Filter>
+    </ClCompile>
+    <ClCompile Include="teapot.cpp">
+      <Filter>소스 파일\22.05.18. 질감</Filter>
+    </ClCompile>
+    <ClCompile Include="HW03.cpp">
+      <Filter>소스 파일\HW&amp;EXAM</Filter>
+    </ClCompile>
+    <ClCompile Include="20204624.cpp">
+      <Filter>소스 파일\HW&amp;EXAM</Filter>
+    </ClCompile>
+    <ClCompile Include="Rubberband.cpp">
+      <Filter>소스 파일\HW&amp;EXAM</Filter>
+    </ClCompile>
+    <ClCompile Include="Rubber_band2.cpp">
+      <Filter>소스 파일\HW&amp;EXAM</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer_Callback.cpp">
+      <Filter>소스 파일\22.03.21.</Filter>
+    </ClCompile>
+    <ClCompile Include="Idle_Callback.cpp">
+      <Filter>소스 파일\22.03.21.</Filter>
+    </ClCompile>
+    <ClCompile Include="mouse_keyboard_Callbackcpp.cpp">
+      <Filter>소스 파일\22.03.21.</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_Line.cpp">
+      <Filter>소스 파일\22.03.28.</Filter>
+    </ClCompile>
+    <ClCompile Include="Make_Shape.cpp">
+      <Filter>소스 파일\22.03.28.</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_Cube.cpp">
+      <Filter>소스 파일\22.04.04.</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>소스 파일\22.04.04.</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Shape.cpp">
+      <Filter>소스 파일\22.04.04.</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Shape2.cpp">
+      <Filter>소스 파일\22.04.04.</Filter>
+    </ClCompile>
+    <ClCompile Include="Draw_Square.cpp">
+      <Filter>소스 파일\22.03.14.</Filter>
+    </ClCompile>
+    <ClCompile Include="Random_square.cpp">
+      <Filter>소스 파일\22.03.14.</Filter>
+    </ClCompile>
+    <ClCompile Include="Reshape_Callback.cpp">
+      <Filter>소스 파일\22.03.14.</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Camera1.cpp">
+      <Filter>소스 파일\22.04.13. 카메라이동, push-pop</Filter>
+    </ClCompile>
+    <ClCompile Include="Move_Camera2.cpp">
+      <Filter>소스 파일\22.04.13. 카메라이동, push-pop</Filter>
+    </ClCompile>
+    <ClCompile Include="Double_Buffering.cpp">
+      <Filter>소스 파일\22.03.28.</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
